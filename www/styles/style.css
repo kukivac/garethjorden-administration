@@ -1,0 +1,250 @@
+p {
+  margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", serif;
+}
+
+a {
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
+
+a * {
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
+
+a * :hover {
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
+
+.sign-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#frm-SignIn {
+  display: flex;
+  flex-flow: column;
+}
+
+#frm-SignIn > * {
+  margin: 5px;
+}
+
+.album-select {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.album-select button {
+  margin: 15px;
+}
+
+.images-container {
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.image-container {
+  padding: 5px;
+  border: 1px solid #6e6e6e;
+  border-radius: 3px;
+  margin: 2px;
+  display: flex;
+  flex-flow: column;
+}
+
+.cover-photo {
+  border-color: #ff362e;
+  border-width: 2px;
+  margin: 1px;
+}
+
+.album-image {
+  cursor: pointer;
+}
+
+.container {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.album-forms-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  border-bottom: #6e6e6e 2px solid;
+}
+
+.album-form-container {
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 50vw;
+  max-width: 500px;
+}
+
+td, th {
+  text-align: center !important;
+}
+
+.buttons-container {
+  margin-top: 8px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.buttons-container .btn-danger, .btn-warning {
+  width: 100px;
+  margin-right: 25px;
+}
+
+.fa-toggle-off, .fa-toggle-on {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.toggler {
+  position: fixed;
+  left: 20px;
+  top: 50vh;
+  display: flex;
+  flex-flow: column;
+}
+
+.default-container {
+  margin-left: 100px !important;
+}
+
+.instagram-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#instagram-container {
+  width: 935px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.grid-image {
+  width: 293px;
+  height: 293px;
+  object-fit: cover;
+  margin-bottom: 28px;
+}
+
+.hidden {
+  display: none;
+}
+
+.image {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.form-control-feedback {
+  color: #ff362e;
+  font-weight: bold;
+}
+
+.profile-info-container {
+  padding: 20px;
+}
+
+.landing-page-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.landing-page-mockup {
+  max-width: 40vw;
+}
+
+.profile-picture-mockup {
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.profile-landing-container {
+  width: 100vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.profile-landing-container section {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 45vw;
+}
+
+.sixteen-nine {
+  position: relative;
+}
+.sixteen-nine:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 56.25%;
+}
+.sixteen-nine > .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.nav-link {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.title-container {
+  display: flex;
+  width: 100%;
+  flex-flow: row;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
