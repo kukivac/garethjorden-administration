@@ -1,4 +1,4 @@
-# Garethjordern Mainsite
+# Garethjorden Mainsite
 
 **Garethjordern Mainsite** is a personal portfolio website for a UK-based photographer, designed to showcase his work in a familiar, Instagram-inspired layout. This project provides greater flexibility in how images and content are presented, all while maintaining a sleek, mobile-friendly design.
 
