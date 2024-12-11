@@ -1,18 +1,19 @@
-# Garethjorden Mainsite
+# Garethjorden Administration Site
 
-**Garethjordern Mainsite** is a personal portfolio website for a UK-based photographer, designed to showcase his work in a familiar, Instagram-inspired layout. This project provides greater flexibility in how images and content are presented, all while maintaining a sleek, mobile-friendly design.
+This project serves as the administration panel for the [Garethjorden Mainsite](https://github.com/kukivac/garethjorden-mainsite). It provides a secure, user-friendly interface for managing the photography portfolio’s content, including image uploads, gallery organization, and other custom configurations. Built atop a custom MVC framework in PHP 8.1, this admin interface offers the flexibility and control needed to keep the main site’s content fresh and well-structured.
 
 ## Overview
 
-The site aims to replicate the clean, grid-like feel of Instagram’s feed while offering additional customization options tailored for a professional photography portfolio. Images are prominently displayed, and the overall layout focuses on visual storytelling.
+The administration site is designed with a straightforward and intuitive layout, making it easy to add, edit, and remove photographs, as well as tweak display settings. It integrates seamlessly with the Garethjorden Mainsite, ensuring that updates made here are reflected instantly on the public-facing portfolio.
 
 ## Key Features
 
-- **Instagram-Inspired Design:** Presents photographs in a grid-based format, similar to Instagram’s feed, ensuring a clean and intuitive browsing experience.
-- **Custom MVC Framework:** Utilizes a proprietary PHP 8.1 framework with a custom controller-based routing system to ensure scalability and maintainability.
-- **Latte Templating:** Leverages Latte for view rendering, enabling clean and flexible template structures.
-- **SCSS Frontend:** Implements SCSS for styling, providing a modular and maintainable approach to stylesheet management.
-- **Flexible Configuration:** Offers greater control over layout and content arrangement, empowering the photographer to adjust the look and feel without extensive code changes.
+- **Tight Integration:** Directly controls and configures content for the main site, ensuring rapid updates and consistent presentation.
+- **Custom MVC Framework:** Built on a proprietary PHP 8.1 framework that ensures maintainable, scalable architecture.
+- **Latte Templating:** Uses Latte for clean and modular templating, simplifying the process of adding new views or adjusting existing ones.
+- **SCSS Frontend:** Implements SCSS for maintaining a structured and easily adjustable stylesheet.
+- **MySQL Database:** Stores and manages content in a MySQL database for reliable and efficient data handling.
+- **Custom Routing & Controllers:** Routes requests through a custom controller-based system, making it straightforward to add new administrative functionalities.
 
 ## Technologies Used
 
@@ -20,45 +21,50 @@ The site aims to replicate the clean, grid-like feel of Instagram’s feed while
 - **Templating:** Latte
 - **Routing:** Custom controller-based routing
 - **Frontend:** SCSS
+- **Database:** MySQL
 
 ## Getting Started
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/garethjordern-mainsite.git
+   git clone https://github.com/your-username/garethjorden-admin.git
    ```
 
 2. **Install Dependencies:**
-   Ensure that you have PHP 8.1 and Composer installed. Then run:
+   Ensure that PHP 8.1 and Composer are installed. Then:
    ```bash
    composer install
    ```
 
 3. **Configuration:**
-   Configure any required settings (database, paths, etc.) in the project’s configuration files, typically found in a `config` or `.env` file. Make sure your web server points to the public-facing directory (often `public`).
+   - Update the configuration files, typically found in a `config` or `.env` file, to set up database credentials (MySQL host, username, password, and database name).
+   - Ensure that your web server points to the project’s public directory (often `public`).
+   - Make sure the database is migrated and seeded as required.
 
 4. **Build Styles:**
-   If you need to recompile the SCSS files:
+   Recompile SCSS files if necessary:
    ```bash
    npm install
    npm run build
    ```
 
 5. **Run the Application:**
-   Start your local development server or configure your preferred server environment. For a quick start, you can use PHP’s built-in server:
+   Start a local development server or configure your production server accordingly. For quick local testing:
    ```bash
    php -S localhost:8000 -t public
    ```
 
-6. **Access the Site:**
-   Open your browser and visit:
+6. **Access the Administration Panel:**
+   Open your browser and go to:
    ```
    http://localhost:8000
    ```
 
+   You should be prompted to log in or otherwise authenticate, depending on your security setup.
+
 ## Contributing
 
-Contributions are welcome! Feel free to open a pull request or issue for any improvements, suggestions, or bug fixes. Please ensure code is well-documented, and follow standard GitHub workflows.
+Contributions are welcomed! Whether it’s a bug fix, an improvement in the user interface, or adding a new feature, please submit a pull request. Ensure any changes are well-documented and tested before proposing a merge.
 
 ## License
 
@@ -66,4 +72,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-*Crafted to showcase the artistry of photography, Garethjordern Mainsite combines a familiar aesthetic with robust custom architecture, delivering a unique and flexible platform for visual storytelling.*
+*Built to streamline content management for Garethjorden Mainsite, this administration panel ensures that updates are seamless, efficient, and easy to manage.*  
